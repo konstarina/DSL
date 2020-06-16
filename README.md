@@ -2,7 +2,8 @@
 
 ## Description
 This is a DSL project for generating different fractal images. 
-We can construct fractals by introducing the idea of *initiators* and *generators*. An initiator is a starting shape. A generator is an arranged collection of scaled copies of the initiator. To generate fractals from initiators and generators, we follow a simple rule called ***Fractal Generation Rule: At each step, replace every copy of the initiator with a scaled copy of the generator, rotating as necessary.***  We can see this rule applied in following example:
+We can construct fractals by introducing the idea of *initiators* and *generators*. An initiator is a starting shape. A generator is an arranged collection of scaled copies of the initiator. To generate fractals from initiators and generators, we follow a simple rule called  
+> ***Fractal Generation Rule: At each step, replace every copy of the initiator with a scaled copy of the generator, rotating as necessary.***  We can see this rule applied in following example:
 In this program you will generate different types of fractals, which are: 
 - box fractal (1),
 - cross form (2),
@@ -21,16 +22,18 @@ In this program you will generate different types of fractals, which are:
 
 ## Installation 
 Using the command line, desired fractal image is generated.
-
- > from __future__ import print_function
- > import sys
- > import importlib
+```python
+  from __future__ import print_function
+  import sys
+  import importlib
+  ```
 
 The source file is the 1st argument to the script:
 
-> if len(sys.argv) != 2:
-	> print('usage: %s <src.dsl>' % sys.argv[0])
-	> sys.exit(1)
+```python if len(sys.argv) != 2:
+	 print('usage: %s <src.dsl>' % sys.argv[0])
+	 sys.exit(1) 
+```
 
 Path to the Library (DSL -Library) containing fractal programs:
 
