@@ -40,8 +40,8 @@ The source file is the 1st argument to the script:
 ```
 
 Path to the Library (DSL -Library) containing fractal programs:
-
-```python sys.path.insert(0, r'C:\Users\Пользователь\PycharmProjects\DSL-Library')
+```python 
+sys.path.insert(0, r'C:\Users\Пользователь\PycharmProjects\DSL-Library')
 ```
 
 Read the .dsl file. Define % symbol as comment keyword and ignore the input after it. Split the input into tokens(parts):
