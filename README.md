@@ -18,6 +18,11 @@ In this program you will generate different types of fractals, which are:
 - snowflake (12)
 
 ## Prerequisites
+```python
+turtle
+colorsis
+math
+```
 
 ## Installation 
 Using the command line, desired fractal image is generated.
