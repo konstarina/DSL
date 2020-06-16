@@ -52,7 +52,7 @@ Read the .dsl file. Define % symbol as comment keyword and ignore the input afte
 
 Define the first token as the module. A module(like "koch") is the name of a .py file that generates the fractal(after getting the arguments):
 
- 				```python mod = importlib.import_module(parts[0])
+ 				``` mod = importlib.import_module(parts[0])
 				```
       
 Parsing the module name, function to be called(usually "draw") and arguments(parts[2] - axiom, part[3]):
