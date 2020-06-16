@@ -19,9 +19,9 @@ In this program you will generate different types of fractals, which are:
 
 ## Prerequisites
 ```python
-turtle
-colorsis
-math
+import turtle
+import colorsis
+import math
 ```
 
 ## Installation 
