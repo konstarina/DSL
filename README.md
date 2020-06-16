@@ -37,25 +37,28 @@ The source file is the 1st argument to the script:
 
 Path to the Library (DSL -Library) containing fractal programs:
 
-> sys.path.insert(0, r'C:\Users\Пользователь\PycharmProjects\DSL-Library')
+```python sys.path.insert(0, r'C:\Users\Пользователь\PycharmProjects\DSL-Library')
+```
 
 Read the .dsl file. Define % symbol as comment keyword and ignore the input after it. Split the input into tokens(parts):
-> with open(sys.argv[1], 'r') as file:
+```python with open(sys.argv[1], 'r') as file:
 	> for line in file:
     	> line = line.strip()
     	> if not line or line[0] == '%':
         	> continue
     	> parts = line.split()
     	> print(parts)
+```
 
 Define the first token as the module. A module(like "koch") is the name of a .py file that generates the fractal(after getting the arguments):
 
- 				``` python
+ 				```python
 				mod = importlib.import_module(parts[0])
 				```
       
 Parsing the module name, function to be called(usually "draw") and arguments(parts[2] - axiom, part[3]):
-				getattr(mod, parts[1])(parts[2], parts[3])
+				```python getattr(mod, parts[1])(parts[2], parts[3])
+				```
 
 To generate a fractal type in the .dsl file , User should introduce following instructions:
         1 - Name of  desired Fractal
@@ -63,10 +66,11 @@ To generate a fractal type in the .dsl file , User should introduce following in
         3 - Axiom
         4 - Rule
 
-boxFractal draw F-F-F-F F-F+F+F-F
+>> boxFractal draw F-F-F-F F-F+F+F-F
 
 To run the program, User should type in the Command Line of his device : 
-"python nameOfThisFile.py nameOfDSLfile.dsl” .
+```python python nameOfThisFile.py nameOfDSLfile.dsl
+```
 
 
 
