@@ -71,18 +71,31 @@ getattr(mod, parts[1])(parts[2], parts[3])
         4 - Rule
 
 >> boxFractal draw F-F-F-F F-F+F+F-F
+>
 >> kochSnowflake draw F--F--F F+F--F+F
+>
 >> quadraticKochIsland draw F+F+F+F F-F+F+FFF-F-F+F
+>
 >> crystal draw F+F+F+F FF+F++F+F
+>
 >> quadraticSnowflake draw F--F F-F+F+F-F
+>
 >> levyCurve draw F +F--F+
+>
 >> sierpinskiArrowhead draw YF YF+XF+Y
+>
 >> siepinskiSieve draw FXF--FF--FF FF
+>
 >> board draw F+F+F+F FF+F+F+F+FF
+>
 >> tiles draw F+F+F+F FF+F-F+F+FF
+>
 >> rings draw F+F+F+F FF+F+F+F+F+F-F
+>
 >> pentaplexity draw F++F++F++F++F F++F++F+++++F-F++F
+>
 >> peanoGosperCurve draw FX X+YF++YF-FX--FXFX-YF+
+>
 >> cross draw F+F+F+F F+FF++F+F
 
 To run the program, User should type in the Command Line of his device:
