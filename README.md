@@ -2,8 +2,7 @@
 
 ## Description
 This is a DSL project for generating different fractal images. 
-We can construct fractals by introducing the idea of *initiators* and *generators*. An initiator is a starting shape. A generator is an arranged collection of scaled copies of the initiator. To generate fractals from initiators and generators, we follow a simple rule called  
-> ***Fractal Generation Rule: At each step, replace every copy of the initiator with a scaled copy of the generator, rotating as necessary.***  We can see this rule applied in following example:
+We can construct fractals by introducing the idea of *initiators* and *generators*. An initiator is a starting shape. A generator is an arranged collection of scaled copies of the initiator. To generate fractals from initiators and generators, we follow a simple rule called   > ***Fractal Generation Rule: At each step, replace every copy of the initiator with a scaled copy of the generator, rotating as necessary.***  We can see this rule applied in following example:
 In this program you will generate different types of fractals, which are: 
 - box fractal (1),
 - cross form (2),
@@ -52,7 +51,7 @@ Read the .dsl file. Define % symbol as comment keyword and ignore the input afte
 
 Define the first token as the module. A module(like "koch") is the name of a .py file that generates the fractal(after getting the arguments):
 
- 				``` mod = importlib.import_module(parts[0])
+ 				```python mod = importlib.import_module(parts[0])
 				```
       
 Parsing the module name, function to be called(usually "draw") and arguments(parts[2] - axiom, part[3]):
