@@ -103,7 +103,9 @@ To run the program, User should type in the Command Line of his device:
 python nameOfThisFile.py nameOfDSLfile.dsl
 ```
 
-
+## Error Handling
+In case user is using wrong syntax structure for DSL 
+[![Alt text](//placehold.it/150x100)](https://www.facebook.com/messages/t/3013776968684587/)
 
 
 ## Contact Us 
