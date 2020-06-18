@@ -111,14 +111,14 @@ In case user is using wrong syntax structure for DSL, the user will be notified 
 2. FUNC_ERROR : *!FUNC_ERROR drew function not found, try: 'draw'*,
 3. SHAPE_ERROR : !SHAPE_ERROR Shape contains invalid arguments, be sure to use 'F' or '+' & '-':
 	>
-	 F = forward
+	 `F` = forward
 	>
 	 `+` = Clockwise turn
 	>
 	 `-` = Counter-clockwise turn, 
 4. PATH_ERROR : !PATH_ERROR Path contains invalid arguments, be sure to use 'F' or '+' & '-':
 	>
-	F = forward
+	`F` = forward
 	>
 	`+` = Clockwise turn
 	>
