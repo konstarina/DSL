@@ -104,8 +104,19 @@ python nameOfThisFile.py nameOfDSLfile.dsl
 ```
 
 ## Error Handling
-In case user is using wrong syntax structure for DSL 
-[![Alt text](//placehold.it/150x100)](https://www.facebook.com/messages/t/3013776968684587/)
+In case user is using wrong syntax structure for DSL, the user will be notified about, for example: 
+
+1. SYNTAXERROR : *!SYNTAXERROR Make sure to specify: <Fractal Name> <Keyword> <Shape> <Path> 
+	* check the documentation or README for more information")*
+2. FUNC_ERROR : *!FUNC_ERROR drew function not found, try: 'draw'*,
+3. SHAPE_ERROR : !SHAPE_ERROR Shape contains invalid arguments, be sure to use 'F' or '+' & '-':
+	F = forward
+	+ = Clockwise turn
+	- = Counter-clockwise turn, 
+4. PATH_ERROR : !PATH_ERROR Path contains invalid arguments, be sure to use 'F' or '+' & '-':
+	F = forward
+	+ = Clockwise turn
+	- = Counter-clockwise turn.
 
 
 ## Contact Us 
